@@ -7,10 +7,9 @@ uniapp 实现tabBar图标凸起的两种方式（App端）
 
 #### 效果图
 
-![image](https://github.com/ly97721/vue-element-admin/blob/master/screenshots/%E5%93%81%E7%B1%BB%E7%AE%A1%E7%90%86.png)
-![image](https://github.com/ly97721/vue-element-admin/blob/master/screenshots/%E9%A6%96%E9%A1%B5-%E5%9B%BE%E8%A1%A8%E7%AE%A1%E7%90%86.png)
-![image](https://github.com/ly97721/vue-element-admin/blob/master/screenshots/%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86.png)
-![image](https://github.com/ly97721/vue-element-admin/blob/master/screenshots/%E6%B7%BB%E5%8A%A0%E5%95%86%E5%93%81.png)
+![image](https://img-blog.csdnimg.cn/20200729185141381.gif)
+![image](https://img-blog.csdnimg.cn/20200730083057143.gif)
+![image](https://img-blog.csdnimg.cn/20200730152854529.gif)
 
 #### 说明
 
