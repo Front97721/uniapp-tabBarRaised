@@ -66,4 +66,4 @@ HBuilderX + 雷电模拟器 + 小米CC9e + iphone6
 
 ``` bash
 
-For a detailed explanation on how things work, check out the [guide](https://github.com/Front97721/uniapp-tabBarRaised).
+For a detailed explanation on how things work, check out the [guide](https://github.com/Front97721/uniapp-tabBarRaised.git).
