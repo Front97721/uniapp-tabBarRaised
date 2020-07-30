@@ -1,0 +1,117 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"confusion": {
+					"resources": {
+						
+					  }
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/classification/classification",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/circle/circle",
+			"style": {
+				"navigationBarTitleText": "圈子"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/zerjijeimian/zerjijeimian",
+			"style": {
+				"navigationBarTitleText": "跳转的二级界面"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#FA4740",
+		"fontSize":"11px",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		// #ifdef APP-PLUS
+		"midButton": {
+				   "pagePath": "pages/circle/circle",
+				   "iconPath": "static/circle.png",
+		           "width": "60px",
+		           "height": "65px",
+		           "iconWidth": "40px",
+				   "text": "圈子"
+		},
+		// #endif
+		"list":[{
+				"fontSize": "11px",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/classification/classification",
+				"fontSize":"11px",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "分类"
+			},
+			// #ifndef APP-PLUS
+			{
+				"pagePath": "pages/circle/circle",
+				"fontSize":"11px",
+				"iconPath": "static/circle.png",
+				"selectedIconPath": "static/circle.png",
+				"text": "圈子"
+			},
+			// #endif
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "static/logo.png",
+				"fontSize":"11px",
+				"selectedIconPath": "static/logo.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/logo.png",
+				"fontSize":"11px",
+				"selectedIconPath": "static/logo.png",
+				"text": "我的"
+			}]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
